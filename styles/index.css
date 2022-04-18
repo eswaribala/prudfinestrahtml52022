@@ -32,9 +32,20 @@
 }
 .footer .contact p{
 
-  padding-left: 1%;
   font-weight: bold;
 }
+
+#enquire{
+
+    margin-left: 7%;
+    font-size: medium;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+
 ul{
     background-color: black;
 }
@@ -53,3 +64,11 @@ ul li a{
     text-decoration: none;
     color: white;
 }
+ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+
+
