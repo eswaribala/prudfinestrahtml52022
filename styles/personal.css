@@ -47,3 +47,8 @@ select{
 select option{
     font-size: xx-large;
 }
+
+input[type=radio]{
+    width:25%;
+    height: 50px;
+}
