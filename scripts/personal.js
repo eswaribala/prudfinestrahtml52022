@@ -20,8 +20,15 @@ window.addEventListener('load',function(){
 function validate(){
     var selectElement=document.querySelector("#titleData");
     var branchElement=document.querySelector("#branch");
-    return !selectElement.value==0 || !branchElement.value==0;
-
+    console.log(selectElement.value);
+    console.log(branchElement.value);
+    if((selectElement.value==0)&&(branchElement.value==0)) {
+        selectElement.setAttribute("style","background-color:red;");
+        branchElement.setAttribute("style","background-color:red;");
+        return false;
+    }
+   else
+       return true;
 }
 
 
