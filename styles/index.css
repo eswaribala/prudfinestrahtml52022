@@ -4,7 +4,7 @@
 }
 
 .section{
-    border:2px solid green;
+    border:10px solid green;
 }
 
 .footer{
@@ -34,4 +34,22 @@
 
   padding-left: 1%;
   font-weight: bold;
+}
+ul{
+    background-color: black;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    font-size: x-large;
+    margin-right: 5px;
+    font-weight: bold;
+
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
 }
