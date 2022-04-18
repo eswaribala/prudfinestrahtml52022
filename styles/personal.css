@@ -39,3 +39,11 @@ input{
     align-items: center;
 
 }
+select{
+    width:53%;
+    height: 50px;
+    font-size: xx-large;
+}
+select option{
+    font-size: xx-large;
+}
