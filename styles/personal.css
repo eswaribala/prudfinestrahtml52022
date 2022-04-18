@@ -6,11 +6,16 @@ h1{
 
 fieldset{
     width:50%;
-
+    font-size: large;
+    font-weight: bold;
     border: 5px solid goldenrod;
 }
 legend{
     text-align: center;
     font-weight: bold;
     font-size: large;
+}
+h4{
+    font-size: medium;
+    font-weight: bold;
 }
