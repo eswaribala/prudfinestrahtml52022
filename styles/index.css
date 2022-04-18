@@ -1,4 +1,30 @@
 .header{
     border: 2px solid red;
-    width:100%;s
+    width:100%;
+}
+
+.section{
+    border:2px solid green;
+}
+
+.footer{
+    border: 2px solid yellow;
+    background-color: grey;
+    margin-top: 400px;
+    height:200px;
+    color: white;
+    font-size: x-large;
+    text-align: justify;
+}
+.footer .contact{
+    text-align: justify;
+}
+
+.phone{
+    width:100px;
+    height:100px;
+    padding: 5px;
+}
+.footer .contact p{
+    display: inline;
 }
