@@ -18,8 +18,9 @@ window.addEventListener('load',function(){
     })
 
     var downloadBtnRef=document.querySelector('#download');
-    downloadBtnRef.addEventListener('click',function (){
-
+    downloadBtnRef.addEventListener('click',function (event){
+        event.preventDefault();
+       this.disabled=true;
         var count=window.localStorage.getItem('count');
         for(let i=0;i<count;i++) {
             if(window.localStorage.getItem('photo'+i)!=undefined){
