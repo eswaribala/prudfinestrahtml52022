@@ -56,8 +56,8 @@ function validate(){
             "type":customerGroup
         }
         //storage
-        window.sessionStorage.setItem("contact",contactObj);
-        window.alert("form submitted.....");
+        window.sessionStorage.setItem("contact",JSON.stringify(contactObj));
+        window.alert(contactObj);
         return true;
     }
 }
