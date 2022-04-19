@@ -49,6 +49,6 @@ function displayphotos(fileName){
      photoArea.appendChild(image);
     }
     image.src=fileName;
-    image.width=100;
-    image.height=100;
+    image.width=400;
+    image.height=200;
 }

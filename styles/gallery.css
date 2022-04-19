@@ -26,3 +26,15 @@ button{
     margin-left: 40%;
     background-color: green;
 }
+
+#photos{
+
+
+}
+
+#photos img{
+    display: block;
+    margin-left: 30%;
+    padding:5px;
+    border:5px solid red;
+}
