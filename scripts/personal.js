@@ -17,10 +17,7 @@ window.addEventListener('load',function(){
 
     var buttonElement=document.querySelector('#next');
 
-    buttonElement.addEventListener('click',function(){
-        console.log("Data transferred....");
-        validate();
-    })
+
 
 
 })

@@ -9,7 +9,7 @@
 <body>
 <section class="form">
 <h1>NRI &nbsp;&nbsp;- &nbsp;&nbsp;Contact Us</h1>
-
+<form onsubmit="return validate()">
     <fieldset>
         <legend>NRI Contact Form</legend>
         <h4>Complete all fields marked with an asterisk (*).</h4>
@@ -22,19 +22,19 @@
         <select id="titleData">
         </select>
         <label>First Name *</label>
-        <input type="text" id="firstName" required pattern="[a-zA-z]{5,25}"
-
-        />
+        <input type="text" id="firstName" required pattern="^[a-zA-z]{5,25}$"
+         />
         <label>Last Name *</label>
-        <input type="text" id="lastName" required pattern="[a-zA-z]{5,25}"
+        <input type="text" id="lastName" required pattern="^[a-zA-z]{5,25}$"
+
 
         />
         <label>Country/Region of residence *</label>
-        <input type="text" id="countryName" required pattern="[a-zA-z]{5,50}"
+        <input type="text" id="countryName" required pattern="^[a-zA-z]{5,50}$"
 
         />
         <label>Phone Number *</label>
-        <input type="number" id="phoneNo" required pattern="[0-9]{10}"/>
+        <input type="number" id="phoneNo" required pattern="^\d{10}$"/>
         <label>Email Address *</label>
         <input type="email" id="email" required/>
         <label>Are you an existing customer *</label>
@@ -51,9 +51,9 @@
         <select id="branch">
 
         </select>
-        <button id="next">Next</button>
+       <input type="submit" value="Submit">
     </fieldset>
-
+</form>
 
 </section>
 </body>
