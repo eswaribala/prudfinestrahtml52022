@@ -15,6 +15,14 @@ window.addEventListener('load',function(){
         index++;
     })
 
+    var buttonElement=document.querySelector('#next');
+
+    buttonElement.addEventListener('click',function(){
+        console.log("Data transferred....");
+        validate();
+    })
+
+
 })
 
 function validate(){

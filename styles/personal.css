@@ -57,7 +57,9 @@ input[type=radio]{
     height: 50px;
 }
 
-input[type=submit]{
+button{
+    display: block;
+    font-size: xx-large;
     background-color: red;
     margin-top: 5%;
     margin-left: 75%;

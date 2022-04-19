@@ -9,7 +9,7 @@
 <body>
 <section class="form">
 <h1>NRI &nbsp;&nbsp;- &nbsp;&nbsp;Contact Us</h1>
-<form onsubmit="return validate()">
+
     <fieldset>
         <legend>NRI Contact Form</legend>
         <h4>Complete all fields marked with an asterisk (*).</h4>
@@ -23,19 +23,14 @@
         </select>
         <label>First Name *</label>
         <input type="text" id="firstName" required pattern="[a-zA-z]{5,25}"
-        onvalid="this.setCustomValidity('')"
-        oninvalid="this.setCustomValidity('First Name should be text between 5 to 25 chars')"
+
         />
         <label>Last Name *</label>
         <input type="text" id="lastName" required pattern="[a-zA-z]{5,25}"
-               onvalid="this.setCustomValidity('')"
-               oninvalid="this.setCustomValidity('Last Name should be text between 5 to 25 chars')"
 
         />
         <label>Country/Region of residence *</label>
         <input type="text" id="countryName" required pattern="[a-zA-z]{5,50}"
-               onvalid="this.setCustomValidity('')"
-               oninvalid="this.setCustomValidity('Country Name should be text between 5 to 25 chars')"
 
         />
         <label>Phone Number *</label>
@@ -56,9 +51,9 @@
         <select id="branch">
 
         </select>
-        <input type="submit" value="Submit"/>
+        <button id="next">Next</button>
     </fieldset>
-</form>
+
 
 </section>
 </body>
