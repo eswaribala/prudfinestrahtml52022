@@ -1,0 +1,23 @@
+fieldset{
+    width:40%;
+    margin-left: 25%;
+    font-size: small;
+    font-weight: bold;
+    border: 5px solid goldenrod;
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-size: xx-large
+}
+input{
+    display: block;
+    width:50%;
+    font-size: xx-large;
+}
+button{
+    font-size: xx-large;
+    margin-top: 5%;
+    background-color: red;
+}
