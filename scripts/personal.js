@@ -57,7 +57,8 @@ function validate(){
         }
         //storage
         window.sessionStorage.setItem("contact",JSON.stringify(contactObj));
-        window.alert(contactObj);
+        window.alert("form submitted....");
+
         return true;
     }
 }
