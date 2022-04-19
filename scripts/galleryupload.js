@@ -11,6 +11,7 @@ window.addEventListener('load',function(){
         for(let i=0;i<filesRef.files.length;i++){
             if(filesRef.files[i].type.match(pattern)){
                 console.log("It is an image file");
+                storeFile(i,filesRef.files[i]);
             }
         }
 
@@ -18,3 +19,14 @@ window.addEventListener('load',function(){
 
 
 })
+
+
+
+function storeFile(index,file){
+
+    var fileReader=new FileReader();
+    fileReader.readAsDataURL(file);
+    fileReader.onload=function(){
+        window.localStorage.setItem("photo"+index,fileReader.result);
+    }
+}
