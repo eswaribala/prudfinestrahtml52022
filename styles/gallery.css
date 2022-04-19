@@ -23,7 +23,7 @@ button{
 }
 
 #download{
-    margin-left: 40%;
+    margin-left: 20%;
     background-color: green;
 }
 
@@ -45,4 +45,50 @@ button{
 }
 #photos img:hover{
     -webkit-transform: rotateZ(45deg);
+}
+@-webkit-keyframes rabbitanimation {
+    0% {
+
+
+        -webkit-transform:  translate(100px,0px);
+        -webkit-transition: all 8s ease;
+    }
+    20% {
+
+        -webkit-transform:  translate(200px,-100px);
+        -webkit-transition: all 8s ease;
+    }
+    40% {
+
+        -webkit-transform:  translate(300px,0px);
+        -webkit-transition: all 8s ease;
+    }
+    60% {
+
+        -webkit-transform:  translate(500px,-100px);
+        -webkit-transition: all 8s ease;
+    }
+    80% {
+
+        -webkit-transform:  translate(1000px,0px);
+        -webkit-transition: all 8s ease;
+    }
+
+    100%
+    {
+        -webkit-transform:  rotateY(90deg) ;
+        -webkit-transition: all 14s  ease;
+
+    }
+
+
+
+}
+img#rabbit {
+    -webkit-animation-name: rabbitanimation;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-timing-function: linear;
 }

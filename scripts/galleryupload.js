@@ -43,7 +43,10 @@ function storeFile(index,file){
 }
 
 function displayphotos(fileName){
-
+   top=100;
+   left=30;
+   bottom=5;
+   right=10;
     var image=new Image();
     var photoArea=document.querySelector('#photos');
     image.onload=function(){
@@ -52,5 +55,6 @@ function displayphotos(fileName){
     image.src=fileName;
     image.width=400;
     image.height=200;
+
 
 }
