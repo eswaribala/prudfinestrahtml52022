@@ -1,3 +1,6 @@
+.form{
+    margin-left: 25%;
+}
 h1{
     font-size: xx-large;
     font-family: "Times New Roman";
@@ -14,6 +17,7 @@ legend{
     text-align: center;
     font-weight: bold;
     font-size: large;
+    font-size: xx-large
 }
 h4{
     font-size: medium;
@@ -51,4 +55,10 @@ select option{
 input[type=radio]{
     width:25%;
     height: 50px;
+}
+
+input[type=submit]{
+    background-color: red;
+    margin-top: 5%;
+    margin-left: 75%;
 }
