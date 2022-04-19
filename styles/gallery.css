@@ -34,9 +34,10 @@ button{
 
 #photos img{
     display: block;
-    margin-left: 30%;
+    margin-left: 37%;
     margin-top: 2%;
     margin-bottom: 2%;
     border:5px solid red;
-    border-radius: 100px 100px 100px 100px;
+    border-radius:50%;
+    -webkit-box-shadow: 5px 5px 5px 5px mediumslateblue;
 }
