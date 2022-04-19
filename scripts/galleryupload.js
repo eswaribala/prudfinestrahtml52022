@@ -50,6 +50,7 @@ function displayphotos(fileName){
      photoArea.appendChild(image);
     }
     image.src=fileName;
-    image.width=300;
-    image.height=300;
+    image.width=400;
+    image.height=200;
+
 }
