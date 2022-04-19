@@ -40,4 +40,9 @@ button{
     border:5px solid red;
     border-radius:50%;
     -webkit-box-shadow: 5px 5px 5px 5px mediumslateblue;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all 2.0s ease;
+}
+#photos img:hover{
+    -webkit-transform: rotate(45deg);
 }
