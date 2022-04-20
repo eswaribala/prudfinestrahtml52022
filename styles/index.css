@@ -83,6 +83,16 @@
         flex-direction: row;
     }
 
+
+    #olympic{
+        width:600px;
+        height:300px;
+        border: 2px solid red;
+    }
+
+
+
+
 }
 @media screen  and (min-width:500px) and (max-width:1299px) {
     body{
@@ -169,3 +179,5 @@
     }
 
 }
+
+
