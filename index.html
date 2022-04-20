@@ -10,7 +10,7 @@
     <script>
         $(document).ready(function()
         {
-            $('#pills-first a').hover(function (e) {
+            $('#pills-first button').hover(function (e) {
                 e.preventDefault()
                 $(this).tab('show')
             });
@@ -32,20 +32,20 @@
 <div class="container">
     <ul class="nav nav-pills" id="pills-first">
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#banking">Banking
-                <span class="caret"></span></a>
+            <button class="btn btn-primary  dropdown-toggle" data-toggle="dropdown" href="#banking">Banking
+                <span class="caret"></span></button>
         </li>
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#borrowing">Borrowing
-                <span class="caret"></span></a>
+            <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#borrowing">Borrowing
+                <span class="caret"></span></button>
         </li>
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#investing">Investing
-                <span class="caret"></span></a>
+            <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown" href="#investing">Investing
+                <span class="caret"></span></button>
         </li>
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#nri">NRI
-                <span class="caret"></span></a>
+            <button class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#nri">NRI
+                <span class="caret"></span></button>
         </li>
     </ul>
 
