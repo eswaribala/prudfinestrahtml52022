@@ -85,12 +85,26 @@
 
 
     #olympic{
-        width:600px;
-        height:300px;
+        width:400px;
+        height:200px;
+
         border: 2px solid red;
     }
 
+    #flag{
+        width:400px;
+        height:200px;
 
+        border: 2px solid red;
+    }
+
+    .canvasArea{
+        width:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
 
 
 }
