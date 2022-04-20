@@ -91,7 +91,7 @@
         border: 2px solid red;
     }
 
-    #flag{
+    #flag,#path{
         width:400px;
         height:200px;
 
