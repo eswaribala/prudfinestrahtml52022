@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <title>HSBC Banking</title>
    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $('#pills-first a').hover(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            });
 
+        });
+
+    </script>
 </head>
 <body>
 <header class="header">
@@ -16,6 +29,47 @@
 <img src="assets/images/logo.png">
 </header>
 <section class="section">
+<div class="container">
+    <ul class="nav nav-pills" id="pills-first">
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#banking">Banking
+                <span class="caret"></span></a>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#borrowing">Borrowing
+                <span class="caret"></span></a>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#investing">Investing
+                <span class="caret"></span></a>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#nri">NRI
+                <span class="caret"></span></a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="banking">
+            <h4>All Products Home</h4>
+
+        </div>
+        <div class="tab-pane" id="borrowing">
+            <h4>Borrowing</h4>
+
+        </div>
+        <div class="tab-pane" id="investing">
+            <h4>Investing</h4>
+
+        </div>
+        <div class="tab-pane" id="nri">
+            <h4>NRI</h4>
+
+        </div>
+    </div>
+</div>
+
+
 
 </section>
 <footer class="footer">
