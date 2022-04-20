@@ -82,14 +82,18 @@
 
     </div>
     <div class="path">
-        <svg  width="400" height="400" >
+        <svg  width="500" height="500" >
          <path id="box" stroke="red"  stroke-width="5" opacity="0.75" fill="green"
-               d="M 50,100 H 50,400 V 100,400 H 100,50 V 400,100"></path>
-            <ellipse id="One" cx="50" cy="50" rx="20" ry="10" fill="blue" opacity="0.5"
+               d="M 0,200
+C 100,200 0, 100 100,100 C 200,100 100,200 200,200
+C 300,200 200, 100 300,100 C 400,100 300,200 400,200
+C 500,200 400, 100 500,100 C 600,100 500,200 600,200 "></path>
+            <ellipse id="One" cx="50" cy="50" rx="20" ry="20" fill="blue" opacity="0.5"
                      stroke="black"  stroke-width="2">
-                <animateMotion dur="3s" rotate="auto"  repeatCount="indefinite"
+                <animateMotion dur="5s" rotate="auto"  repeatCount="indefinite"
                                begin="button.click">
                     <mpath xlink:href="#box"/>
+                </animateMotion>
             </ellipse>
 
             <g id="button">
